@@ -8,6 +8,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import JobAlerts from './pages/JobAlerts';
 import Settings from './pages/Settings';
+import React from 'react';
 
 const queryClient = new QueryClient();
 

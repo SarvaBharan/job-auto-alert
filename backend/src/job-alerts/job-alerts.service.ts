@@ -24,7 +24,6 @@ export class JobAlertsService {
   async findAll(userId: string) {
     return this.jobAlertModel.find({ userId }).exec();
   }
-
   async findOne(id: string, userId: string) {
     const alert = await this.jobAlertModel.findOne({ _id: id, userId }).exec();
     if (!alert) {
